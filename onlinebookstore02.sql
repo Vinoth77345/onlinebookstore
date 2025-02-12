@@ -53,7 +53,7 @@ COPY Orders(Order_ID, Customer_ID, Book_ID, Order_Date, Quantity, Total_Amount)
 FROM 'D:\online book sql\dataset\sql\csv\Orders.csv' 
 CSV HEADER;
 
-                  -- BASIC QUESTIONS
+                  -- BASIC QUESTIONS AND ANSWER
 -- 1) Retrieve all books in the "Fiction" genre:
  SELECT * FROM Books
  WHERE Genre='Fiction';
@@ -99,7 +99,7 @@ LIMIT 1
 SELECT SUM(total_amount) AS Revenue
 FROM Orders;
 
-                    -- Advance Questions 
+                    -- ADVANCE QUESTIONS AND ANSWER
 
 -- 1) Retrieve the total number of books sold for each genre:
 
